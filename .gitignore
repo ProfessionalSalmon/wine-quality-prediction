@@ -163,3 +163,4 @@ cython_debug/
 
 winequality-1.ipynb
 winequality-2.ipynb
+winequality-scaling.ipynb

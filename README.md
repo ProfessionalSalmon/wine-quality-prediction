@@ -23,9 +23,7 @@ The target variable is the **quality** of the wine, which is a subjective rating
 ## Results
 The model is evaluated using several performance metrics:
 
-Accuracy: The overall correctness of the predictions.
-
-Confusion Matrix: A detailed breakdown of the model’s predictions vs the true quality labels.
+Mean Absolute Error
 
 Feature Importance: Identifies the chemical properties that most affect wine quality.
 
