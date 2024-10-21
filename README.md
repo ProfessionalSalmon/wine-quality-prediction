@@ -30,7 +30,7 @@ Mean Absolute Error, ROC, and Area under the curve
 
 Feature Importance: Identifies the chemical properties that most affect wine quality.
 
-Initial results show that features like alcohol, volatile acidity, and sulphates have a significant impact on predicting wine quality.
+Initial results show that promising models.
 
 ## Usage
 To run the notebook locally, ensure you have the following dependencies installed:
