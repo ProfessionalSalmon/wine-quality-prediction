@@ -23,7 +23,10 @@ The target variable is the **quality** of the wine, which is a subjective rating
 ## Results
 The model is evaluated using several performance metrics:
 
-Mean Absolute Error
+Mean Absolute Error, ROC, and Area under the curve
+
+![picture](/image/red-roc.png)
+![picture](/image/white-roc.png)
 
 Feature Importance: Identifies the chemical properties that most affect wine quality.
 
