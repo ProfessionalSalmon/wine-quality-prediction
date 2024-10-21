@@ -35,8 +35,8 @@ Initial results show that features like alcohol, volatile acidity, and sulphates
 ## Usage
 To run the notebook locally, ensure you have the following dependencies installed:
 
-- 'pandas'
-- 'numpy'
-- 'scikit-learn'
-- 'matplotlib'
-- 'seaborn'
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
