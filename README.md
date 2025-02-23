@@ -17,20 +17,12 @@ The dataset used in this project is the **Red Wine Quality Dataset**, available 
 - **Sulphates**: Additives that can contribute to wine stability.
 - **Alcohol**: The percentage of alcohol content in the wine.
 
-The target variable is the **quality** of the wine, which is a subjective rating given by experts on a scale from 0 to 10.
+The target variable is the **quality** of the wine, which is a subjective rating given by experts on a scale from 0 to 10. Sadly, the performance multiclass classification models is still not acceptable, these models are still in developing progress.
 
-
-## Results
-The model is evaluated using several performance metrics:
-
-Mean Absolute Error, ROC, and Area under the curve
+In the meantime, I created a new binary label where quality from 6.5 upward is deemed good wine and the rest is bad wine. I then use **Decision Tree** model to perform the prediction. The performance is evaluated using ROC and Area under the curve
 
 ![picture](/image/red-roc.png)
 ![picture](/image/white-roc.png)
-
-Feature Importance: Identifies the chemical properties that most affect wine quality.
-
-Initial results show that promising models.
 
 ## Usage
 To run the notebook locally, ensure you have the following dependencies installed:
