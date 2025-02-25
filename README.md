@@ -17,7 +17,8 @@ The dataset used in this project is the **Red Wine Quality Dataset**, available 
 - **Sulphates**: Additives that can contribute to wine stability.
 - **Alcohol**: The percentage of alcohol content in the wine.
 
-The target variable is the **quality** of the wine, which is a subjective rating given by experts on a scale from 0 to 10. Sadly, the performance multiclass classification models is still not acceptable, these models are still in developing progress.
+The target variable is the **quality** of the wine, which is a subjective rating given by experts on a scale from 0 to 10. Sadly, the performance of multiclass classification models (Logistic Regression, KNN, Fully connected Feed Forward Neural Networks) is still not acceptable, these models are still in developing progress. Here is the loss function of Neural Network model.
+![picture](/image/entropy-loss.png)
 
 In the meantime, I created a new binary label (bad vs good). I then use **Decision Tree** model to perform the prediction. The performance of red wine is evaluated using ROC and Area under the curve because the cost of false positives and false negatives is roughly equal; whereas, the white wine uses PR-AUC curve as the positive class is rare.
 
